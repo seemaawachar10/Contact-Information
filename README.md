@@ -22,3 +22,6 @@
  5. Next run node.js command prompt as and admintrator. Open directory ....\ContactInformation\ContactInformationClient
  6. Next run command ng serve --o in node.js command prompt. Port used in 4200.
  7. Open http://localhost:4200/
+
+
+Note: While hosting angular application on IIS we will only use dist folder files not src folder files. dist folder get generated when we execute ng build --prod on Node.js command prompt.
