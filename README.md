@@ -18,6 +18,7 @@
  1. Open project in visual studio.
  2. Go to web.config file of change the server name to your local db server name.
  3. Since code first approach of entity framework is used open Nuget Package manager console, chose default project and run command update-database. Databse will get created to your local db server
- 4. Now set ContactInformationAPI as start up project and run it.
+ 4. Now set ContactInformationAPI as start up project and run it. Port used for it is 8181.
  5. Next run node.js command prompt as and admintrator. Open directory ....\ContactInformation\ContactInformationClient
- 6. Next run command ng serve --o in node.js command prompt. 
+ 6. Next run command ng serve --o in node.js command prompt. Port used in 4200.
+ 7. Open http://localhost:4200/
