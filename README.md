@@ -1,1 +1,23 @@
 # Contact-Information
+ An application for maintaining contact information.
+ 
+ IDE : Visual studio 2015
+ S/w and tools and framework used : 
+ 1. web api 2.0
+ 2. Entity framework 6.0.2
+ 3. Node js
+ 4. Angular 6
+ 
+ Project Structure:
+ Solution(ContactInformation) includes following projects:
+ 1. ContactInformationAPI
+ 2. ContactInformationAPI.Tests
+ 2. ContactInformationClient
+ 
+ How to run project:
+ 1. Open project in visual studio.
+ 2. Go to web.config file of change the server name to your local db server name.
+ 3. Since code first approach of entity framework is used open Nuget Package manager console, chose default project and run command update-database. Databse will get created to your local db server
+ 4. Now set ContactInformationAPI as start up project and run it.
+ 5. Next run node.js command prompt as and admintrator. Open directory ....\ContactInformation\ContactInformationClient
+ 6. Next run command ng serve --o in node.js command prompt. 
